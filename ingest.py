@@ -1,4 +1,7 @@
 """Load html from files, clean up, split, ingest into Weaviate."""
+from dotenv import load_dotenv
+load_dotenv()
+
 import pickle
 
 from langchain.document_loaders import ReadTheDocsLoader
